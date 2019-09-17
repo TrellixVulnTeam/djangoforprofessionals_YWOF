@@ -6,11 +6,13 @@ verify_ssl = true
 [dev-packages]
 pylint = "*"
 autopep8 = "*"
+yapf = "*"
 
 [packages]
 django = "==2.2.3"
 django-crispy-forms = "*"
 django-allauth = "==0.38.0"
+django-environ = "*"
 
 [requires]
 python_version = "3.7"
